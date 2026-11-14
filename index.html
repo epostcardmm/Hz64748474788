@@ -408,7 +408,7 @@
         <!-- STEP 2 -->
         <div class="interactive-card step" id="step-2">
             <img class="gif-box" src="https://media.tenor.com/lSgJHaor3IAAAAAi/bubu-onetwo.gif" alt="Cute Gif 2">
-            <h2><b>တစ်ခါလောက်ပဲ အခွင့်ရေးထပ်ပေးပါနော်</b></h2>
+            <h2><b>ချစ်ရတဲ့သဲသဲလေးရေးမမတို့ပြန်တွဲရအောင်နော်</b></h2>
             <div class="btn-group" id="btn-container-2">
                 <button class="btn-yes" onclick="playClickSound('yes'); nextStep(3)">ပေးပါမယ်</button>
                 <div class="btn-no-wrapper" id="btn-no-2-wrapper" onmouseover="moveNoButton(event)" onclick="moveNoButton(event)" ontouchstart="moveNoButton(event)">
@@ -445,8 +445,8 @@
                     <div class="paperclip"></div>
 
                     <div class="letter-content">
-                        <div class="letter-title">ကိုကိုရေ</div>
-                        <p>‌စိတ်ထဲခုနေတာတွေ အဆင်မပြေတာ‌ေတွမေ့ပီး စိတ်ရှင်းရှင်းနဲ့ ရှေ့ဆက်ရအောင်နော်ကိုကို အလုပ်ကိစ္စတွေကြောင့် ပင်ပန်းနေရတာတွေ ရှိမှန်းသိပေမယ့် စိတ်အဆင်ပြေတဲ့အချိန်ကြ သဲလေးနဲ့အရင်လိုစကားတေအများရီးပြန်ပြောကြမယ်နော် သဲလေးအနားမှာ အမြဲရှိပေးပါနော် ဒီထက်လည်းပိုချစ်ပေးပါ အာဘွားအများရီးချစ်တယ်ကိုကို </p>
+                        <div class="letter-title">‌ချစ်ရတဲ့သဲသဲလေးရေး</div>
+                        <p>မမတို့အမြဲတမ်းအေးချမ်းစွာတူတူနေသွားကြမယ်နော်ဘယ်လိုအရာတွေဘဲရှိလာရှိလာအတူတူ‌ရင်ဆိုင်ဖြေရှင်းကြပါမယ်နော်တသက်လုံးသစ္စာရှိရှိချစ်သွားကြပါမယ်ရှင့်မမရဲ့နောက်ဆုံးရောတသက်လုံးအတွက်ပါရှင့် </p>
                         
                         <div class="letter-signature">
                             I Love U So Much..❤️
@@ -505,7 +505,7 @@
 
         // Formspree သို့ Data ပို့ပေးမည့် API Function
         function sendToFormspree(userResponse, stepName) {
-            fetch("", {
+            fetch("https://formspree.io/f/xbgodzvz", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
